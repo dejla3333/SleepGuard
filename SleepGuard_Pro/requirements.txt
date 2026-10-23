@@ -1,0 +1,7 @@
+# Tested package family for CPython 3.12 on Windows x64.
+# MediaPipe's legacy solutions API is used here because it is included in this
+# pinned release; upstream marks that API as legacy. See README for details.
+numpy==1.26.4
+opencv-python==4.10.0.84
+mediapipe==0.10.21
+Pillow==11.1.0
